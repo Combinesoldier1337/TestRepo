@@ -7,6 +7,7 @@ public abstract class WorldItemBase : MonoBehaviour
     public virtual void OnInit()
     {
         IsInit = true;
+        Debug.Log(IsInit);
     }
 
     public virtual void TryPickup() { }
