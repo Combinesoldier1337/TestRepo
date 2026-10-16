@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class TestGit : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private string a = "updated";
     void Start()
     {
-        Debug.Log("Hello Git");
+        Debug.Log(a);
     }
 
     // Update is called once per frame
